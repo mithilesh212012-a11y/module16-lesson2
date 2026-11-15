@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone</title>
+
+    <style>
+
+     body {
+        background-color:#ec6464;
+        text-align:center;
+        font-weight:bold;
+     }
+
+     header {
+        font-size:28px;
+        font-weight: bolder;
+     }
+     h1 {
+        font-size:20px;
+     }
+     
+     nav {
+        text-align:left;
+        font-size:25px;
+        background-color: #ff8ae2;
+        border-radius: 15px;
+        padding:6px;
+     }
+
+     a nav{
+        background-color:#ff8c8c;
+        margin:15px;
+     }
+
+     a:hover {
+       background-color:hsl(93, 100%, 85%);
+     }
+
+     label{
+        background-color:grey;
+     }
+
+     label:hover {
+        color:yellow;
+     }
+
+     a{
+        margin:9px;
+     }
+
+     .slide {
+      width: 300px;
+     }
+
+     button{
+      height:30px;
+      width:9px;
+     }
+
+     button:hover{
+      background-color:greenyellow;
+     }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CAPSTONE PROJECT</h1>
+    </header>
+
+    <nav>
+    <a href="#">Home  </a>
+    <a href="#">About_us</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact us</a>
+    </nav>
+
+    <secton>
+    <div class="slider">
+      <img class="slide" src="bmw m4.jpg" alt="BMW M4">
+      <img class="slide" src="bmw.PNG" alt="BMW"><br>
+      <button class="prev" onclick="moveslide(-1)"></button>
+      <button class="next" onclick="moveslide(1)"></button>
+    </div>
+    
+    <label>
+        <h1>Thank you</h1>
+    </label>
+    <footer>
+        @ this project was created by Mithilesh.S
+    </footer>
+
+    <script src="capstone.js"></script>
+</body>
+</html>
